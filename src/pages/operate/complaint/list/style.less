@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+@import "../../../../resources/styles/mixins";
+
+.p-opt-cpt-lst{
+  width: 100%;
+  padding: 32px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  .m-query{
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    >input{
+      width: 200px;
+      margin-right: 30px;
+    }
+    .ant-calendar-picker {
+      width: 220px;
+      margin-right: 30px;
+    }
+    .ant-btn{
+      margin-right: 10px;
+    }
+  }
+}
+
+.unit-text{
+  display: inline-block;
+  word-break: keep-all;
+  white-space:nowrap;
+  overflow: hidden;
+  max-width: 500px;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.content{
+  max-width: 320px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.prl40{
+  position: relative;
+  left: -42px;
+  margin-top:10px ;
+}
+
+.p-wrap{
+  width: 100%;
+  height: auto;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+.span-nowrap{
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+}

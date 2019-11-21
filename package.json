@@ -1,0 +1,51 @@
+{
+  "name": "hospital-pc-dev",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "cross-env DISABLE_ESLINT=true roadhog dev",
+    "build": "cross-env DISABLE_ESLINT=true roadhog build",
+    "test": "roadhog test"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.8.9",
+    "@babel/polyfill": "^7.0.0-beta.38",
+    "antd": "^2.6.4",
+    "antd-mobile": "^2.2.9",
+    "antds": "^3.15.1",
+    "babel-runtime": "^6.22.0",
+    "bizcharts": "^3.1.10",
+    "cross-env": "5.1.3",
+    "dva": "1.2.0",
+    "html-loader": "^0.5.5",
+    "jquery": "^3.3.1",
+    "moment": "^2.20.1",
+    "prop-types": "^15.6.0",
+    "qrcode-react": "^0.1.16",
+    "qrcode.react": "^0.9.3",
+    "react": "15.4.2",
+    "react-cropper": "^1.0.1",
+    "react-dom": "15.4.2",
+    "react-svg-use": "^2.1.0",
+    "xl_alioss_react": "^1.0.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-dva-hmr": "^0.4.1",
+    "babel-plugin-import": "^1.6.3",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "expect": "^1.20.2",
+    "html-webpack-plugin": "^2.30.1",
+    "husky": "^0.14.3",
+    "less-vars-to-js": "^1.2.1",
+    "redbox-react": "^1.3.2",
+    "roadhog": "^2.2.0",
+    "wangeditor": "^3.1.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+@import "../../../../resources/styles/mixins";
+
+.p-opt-cs-lst{
+  width: 100%;
+  padding: 32px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  .m-query{
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    >span{
+
+    }
+    >input{
+      width: 200px;
+      margin-right: 25px;
+    }
+    .ant-calendar-picker {
+      width: 220px;
+      margin-right: 25px;
+    }
+    .ant-btn{
+      margin-right: 10px;
+    }
+  }
+}
+.msg-bd{
+  background-color: #f9f9f9;
+}
+
+.text{
+  position: relative;
+  padding: 10px 14px;
+  background: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  // max-width: 55%;
+  color: #000;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break:break-all;
+  .doctort{
+      font-size: 15px;
+  }
+  .search{
+      padding-top: 11px;
+      color: #4cabcf;
+      font-size: 13px;
+      text-align: center;
+      display: block;
+
+  }
+  .apply-title{
+      font-size: 16px;                   
+       padding: 0 14px;
+      color:#333;
+  }
+  .apply-search{
+      padding-top: 11px;
+      color: #4cabcf;
+      font-size: 13px;
+      border-top: 1px solid #efefef;
+      text-align: center;
+      display: block;
+  }
+
+ 
+  .apply-info{
+      display: flex;
+      background: white;
+      border-radius: 5px;
+      padding: 10px 14px;
+      .info{
+          flex: 2;
+          font-size:14px;
+         
+          .info-item{
+              color: #666;
+              span{
+                  color:#333;
+              }
+          }
+      }
+  }
+  .check-info{
+      display: flex;
+      background: rgb(228,247,249);
+      border-radius: 5px;
+      margin-top: 12px;
+      .check-img{
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+          margin: 0 auto;
+          flex: 0.7;
+          background: linear-gradient(to bottom, rgb(170,227,339), rgb(216,249,253));
+          align-items: center;
+          img{
+              width: 36px;
+              padding-left: 20%;
+              min-height: 56px!important;
+              padding-top: 35%;
+              margin: 0 auto;
+              padding-bottom: 35%;
+          }
+      }
+      .info{
+          flex: 2;
+          padding-left: 6px;
+          .fee{
+              font-size: 15px;
+              color: #ea6ea2;
+              padding-top: 5px;
+              font-weight: bold;
+          }
+          .context{
+              font-size: 12px;
+              color: #666;
+
+              padding-bottom: 5px;
+
+              height:30px;
+               line-height: 30px;
+               text-align: left;
+               overflow: hidden;
+               text-overflow: ellipsis;
+               //white-space: nowrap;
+          }
+      }
+  }
+
+}

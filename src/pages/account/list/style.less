@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+@import "../../../resources/styles/mixins";
+.role-title{
+  padding: 30px 50px 20px;
+  color: black;
+  font-weight: bold;
+}
+.role{
+  margin: 0 30px;
+    border:1px solid #ccc;
+    .ant-checkbox-inner {
+      position: relative;
+      top: -2px;
+      left: 0;
+      display: block;
+      width: 19px;
+      height: 19px;
+      border: 1px solid #d9d9d9;
+      border-radius: 2px;
+      background-color: #fff;
+      -webkit-transition: all .3s;
+      transition: all .3s;
+  }
+  .ant-checkbox-checked .ant-checkbox-inner:after {
+    -webkit-transform: rotate(45deg) scale(1);
+    transform: rotate(45deg) scale(1);
+    position: absolute;
+    display: table;
+    border: 2px solid #108ee9;
+    border-top: 0;
+    border-left: 0;
+    content: " ";
+    -webkit-transition: all .2s cubic-bezier(.12,.4,.29,1.46) .1s;
+    transition: all .2s cubic-bezier(.12,.4,.29,1.46) .1s;
+}
+.ant-checkbox-inner:after {
+    -webkit-transform: rotate(45deg) scale(0);
+    transform: rotate(45deg) scale(0);
+    position: absolute;
+    left: 6px;
+    top: 4px;
+    display: table;
+    width: 6px;
+    height: 8px;
+    border: 2px solid #108ee9;
+    border-top: 0;
+    border-left: 0;
+    content: " ";
+    -webkit-transition: all .1s cubic-bezier(.71,-.46,.88,.6);
+    transition: all .1s cubic-bezier(.71,-.46,.88,.6);
+}
+  .role-item:not(:last-child){
+    border-bottom:1px solid #ccc;
+  }
+  .role-item{
+    height: auto;
+    width: 100%;
+    display:flex;
+    text-align: left;
+     .textCenter{
+      margin: auto;
+      text-align: left;
+     }
+    .one:not(:first-child){
+      border-left: 1px solid #ccc;
+      flex:1;
+    }
+    
+    .one:first-child{
+     flex:0.2;
+     padding:10px;
+    }
+    .role-sub-item:not(:last-child){
+      border-bottom:1px solid #ccc;
+    }
+    
+     .role-sub-item{
+       display:flex;
+       .two:not(:first-child){
+        border-left: 1px solid #ccc;
+       
+      }
+      .two:first-child{
+        padding: 10px;
+       }
+       .two{
+         display:flex;
+       
+       }
+
+       
+        .role-operate{
+          display:flex;
+          padding: 10px;
+        }
+     }
+  }
+}
+.page-account{
+
+  width: 100%;
+  padding: 25px 32px;
+  background: #FFFFFF;
+  border-radius: 2px;
+ 
+  .m-info input{
+    width:200px;
+  }
+  .m-info .info-bd{
+    margin-top:25px;
+  }
+  .query-box{
+    overflow: hidden;
+    .ant-btn{
+      margin-bottom: 16px;
+      margin-right: 20px;
+      font-size: 14px;
+    }
+    >input{
+      width: 160px;
+      margin-right: 20px;
+    }
+    .rt{
+      float: right;
+    }
+  }
+  .ant-alert{
+    margin-bottom: 16px;
+  }
+  .delete{
+    color: #EB6CA4;
+  }
+}
+.add-account-modal{
+  padding: 10px;
+  >div{
+    display: flex;
+    margin-bottom: 25px;
+    >p{
+      width: 110px;
+      text-align: right;
+      line-height: 32px;
+      font-size: 14px;
+      color: #595959;
+      span{
+        color: red;
+        margin-right: 10px;
+      }
+    }
+    >div{
+      flex: 1;
+      input{
+        width: 220px;
+      }
+      textarea{
+        height: 80px;
+      }
+    }
+  }
+}
+
+.files-modal{
+  padding: 8px 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

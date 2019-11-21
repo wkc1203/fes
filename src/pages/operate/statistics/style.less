@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+@import "../../../resources/styles/mixins";
+
+.p-operate-sts{
+  flex: 1;
+  .m-tabs{
+    margin-bottom: 20px;
+    .ant-tabs-bar{
+      padding: 0 30px;
+      background-color: #fff;
+    }
+  }
+  .m-chart{
+    margin-left: -30px;
+    &:after{
+      display: table;
+      content: '';
+      clear: both;
+    }
+    .chart-item{
+      float: left;
+      width: 50%;
+      padding-left: 30px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+    .chart{
+      height: 400px;
+      background-color: #fff;
+    }
+    .chart-title{
+      padding: 20px 30px;
+      font-size: 24px;
+    }
+    .chart-wrap{
+      padding: 0 20px;
+    }
+  }
+  .g-list{
+    background-color: #fff;
+    padding: 30px;
+  }
+  .m-query{
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    >input{
+      width: 160px;
+      margin-right: 30px;
+    }
+    .ant-calendar-picker {
+      width: 220px;
+      margin-right: 30px;
+    }
+    .ant-btn{
+      margin-right: 10px;
+    }
+  }
+}

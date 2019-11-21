@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+@import "../../resources/styles/mixins.less";
+
+.home{
+  // box-sizing: border-box;
+  // flex: 1 1;
+  .h-tabs{
+    margin-bottom: 20px;
+    .ant-tabs-bar{
+      padding: 0 30px;
+      background-color: #fff;
+    }
+  }
+
+  .OverviewBox{
+    .OverviewChartBox{
+      margin-top: 16px;
+      background-color: #fff;
+      overflow: hidden;
+      .filter{
+        margin: 0 20px;
+        padding: 20px 0;
+        border-bottom: 1px solid #e8e8e8;
+        // margin-bottom: 20px;
+        >b{
+          // margin-left: 20px;
+          font-size: 14px;
+          color: #333;
+          margin-right: 20px;
+        }
+      }
+      .ChartBox{
+        padding: 0 20px 20px 20px;
+      }
+    }
+  }
+
+  .line{
+    border-right:1px solid #d9d9d9;
+    margin: 0 25px;
+  }
+
+  .homenum{
+    flex:1;
+    padding: 20px;
+    >span{
+      &:first-child{
+        font-size: 16px;
+      }
+      &:last-child{
+        font-size: 35px;
+        margin-left: 20px;        
+        color: #ff6600;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .homeflexbc{ 
+    display:flex;
+    background-color: #fff;
+  }
+
+  .norm{
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .homelist{
+    h3{
+      height: 50px;
+      padding: 0 20px;
+      line-height: 50px;
+      font-size: 16px;
+      border-bottom: 2px solid #e8e8e8;}
+    >div{
+      
+      >p{
+        border-bottom: 1px solid #e8e8e8;
+        font-size: 14px;
+        height: 50px;
+        display:block;
+        line-height: 50px;
+        >span{
+          min-width: 120px;
+          display: inline-block;
+          text-align: center;
+          padding: 0 20px;            
+        }
+      }
+    }
+  }
+
+  .NormDescription{
+    position: relative;
+    i{
+      position: absolute;
+      color: #ff9900;
+      top: 0;
+      left: 50%;
+      top: 27px;
+      left: 84px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+
+  .WarningCode{
+    overflow: hidden;
+    >img{float: left;
+      border: 1px solid #dadada;
+      width: 89px;
+      height: 89px;
+      display: block;
+      margin-right: 20px;
+    }
+    >h3{font-size: 18px;margin-bottom: 5px;}
+    >p{font-size: 14px}
+  }
+
+}
+

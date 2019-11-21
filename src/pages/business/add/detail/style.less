@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+@import "../../../../resources/styles/mixins";
+
+.p-opt-cs-dtl{
+  width: 100%;
+  // padding: 30px;
+  box-sizing: border-box;
+  .m-info{
+    border-bottom:1px solid #E8E8E8;
+    background: white;
+    padding: 20px;
+    .info-hd {
+      font-size:16px;
+      color: #333;
+      font-weight: bold;
+    }
+    .info-bd{
+      display: flex;
+      margin-top: 15px;
+    }
+    .item{
+      flex: 0 0 33.333%;
+      display: flex;
+      font-size:14px;
+      .pingContent{
+        padding-left:20px;
+        padding-top: 20px
+      }
+    }
+    .item-key{
+      color: #333;
+      min-width: 5em;
+    }
+
+    .lh{
+
+      line-height:30px;
+    }
+    .item-value{
+      flex: 1;
+      color: #666;
+      word-break: break-all;
+      white-space: pre-wrap;
+      padding-right: 10px;
+    }
+  }
+  .disNo{
+    display:none;
+  }
+  .m-msg{
+    .msg-hd{
+      font-size:16px;
+      color: #333;
+      font-weight: bold;
+    }
+    .msg-go{
+      width: 120px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: white;
+      background: #4fabcd;
+      margin-top: 40px;
+      border-radius: 5px;
+    }
+    .msg-bd{
+      margin-top: 20px;
+    }
+    .bd-txt{
+     font-size: 14px;
+      color: #333;
+      word-break: break-all;
+      white-space: pre-wrap;
+    }
+    .bd-extra{
+      margin-top: 20px;
+      img{
+        max-width: 100px;
+        margin-right: 25px;
+      }
+    }
+  }
+}

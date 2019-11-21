@@ -1,0 +1,349 @@
+@charset "utf-8";
+
+@import "../../../resources/styles/mixins";
+.ant-table-pagination.ant-pagination {
+  padding-top: 30px;
+}
+.ant-input-number {
+  border:none !important;
+}
+.qrcode{
+  margin-left:0 !important;
+}
+.page-order-det{
+  width: 100%;
+  padding: 25px 32px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  .btn{
+    display: flex;
+    p:first-child{ 
+      width: 100px;
+        text-align: center;
+        height: 30px;
+        margin-right: 10px;
+        color: white;
+        line-height: 30px;
+        background: rgba(22, 155, 213, 1);
+        border-radius: 5px;
+        border:1px solid rgba(22, 155, 213, 1);
+    }
+    p:last-child{
+      width: 100px;
+      text-align: center;  
+      height: 30px;
+      color: #333;
+      line-height: 30px;
+      background: white;
+      border:1px solid #333;
+      border-radius: 5px;
+    }
+  }
+  >div{
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    .title{
+      font-size:16px;
+      margin-bottom: 16px
+    }
+    .oper{
+      height: 50px;
+    text-align: center;
+    line-height: 50px;
+    }
+    >div{
+      display: flex;
+      align-items: center;
+      
+      // justify-content: space-between;
+      flex-wrap: wrap;
+        >.item:not(:last-child){
+          border-bottom: 1px solid #ccc;
+        } 
+        .item{
+           display: flex; 
+            line-height: 40px;
+            height: 40px;
+            text-align: center;
+           >.name{
+             flex:1;  
+           } 
+           >.name:not(:last-child){
+             border-right:1px solid #ccc;
+           }
+        } 
+      
+      .Ratelikep{  
+        position: relative;
+        top: -5px;
+        
+        ul{
+          position: relative;
+          top:-2px
+        }
+        
+      }
+      
+      p{
+        flex:1;
+        margin-bottom: 15px;
+        span{color: rgba(0,0,0,0.65);}
+        &.all-line{width: 100%;}
+        .drtextBox{
+          
+        }
+      }
+    }
+  }
+}
+.file-box{
+  width: 120px;
+  height: 134px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border:1px solid #ddd;
+  cursor: pointer;
+  img{
+    width: 120px;
+    height: 134px;
+    border-radius: 8px
+  }
+} 
+.page-doc-det1{
+  width: 100%;
+  padding:0 !important;
+  background: #FFFFFF;
+  border-radius: 2px;
+  .copper{
+    position: absolute;
+    left: 700px;
+    top: 103px;
+
+  }
+  .confirm{
+    width: 100px;
+    background: #4cabcf;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: white;
+    position: absolute;
+    left: 703px;
+    top: 250px;
+    display: block;
+    margin-left:8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .confirm1{
+    cursor: pointer;
+    width: 100px;
+    background: #4cabcf;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: white;
+    position: absolute;
+    display: block;
+    left: 957px;
+    top: 250px;
+    margin-left: 40px;
+    border-radius: 5px;
+  }
+  .uploadCrop{
+    margin-left: 165px;
+    img{
+      width:120px !important;
+      height:134px !important;
+    }
+  }
+  >div{
+    display: flex;
+    line-height: 32px;
+    flex-wrap: wrap; 
+    position: relative;
+    margin-bottom: 25px;
+    .leftInput{
+      margin-left: 60px;
+      line-height: 32px;
+      >span{
+        margin-right: 8px;
+        .info{
+          color: red;
+         
+        }
+      }
+      >input,.ant-input-number{
+        width: 140px !important;
+        margin-right: 24px;
+        margin-bottom:20px;
+      }
+      >textarea{
+        height: 110px;
+        width: 1000px;
+      }
+    }
+    >span{
+      margin-right: 8px;
+      .info{
+        color: red;
+       
+      }
+    }
+    .ant-input-number-lg input {
+      height: 30px;
+      border: 1px solid #ccc;
+  }
+    >input,.ant-input-number{
+      width: 140px !important;
+      margin-right: 24px;
+    }
+    >textarea{
+      height: 110px;
+      width: 1000px;
+    }
+    .mini{
+      width: 120px;
+      margin-left: 10px;
+    }
+    .file-box{
+      width: 120px;
+      height: 134px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      border:1px solid #ddd;
+      cursor: pointer;
+      img{
+        width: 120px;
+        height: 134px;
+        border-radius: 8px
+      }
+    } 
+    &.btns{
+     
+      .ant-btn{
+        margin-left: 26px; 
+        width:200px;
+        height:40px !important;
+      }
+    }
+  }
+}
+.page-doc1-mng{
+  width: 100%;
+  padding: 25px 32px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  .query-box-prescription{
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E8E8E8;
+    .ant-input-lg {
+      padding: 6px 7px !important;
+      height: 32px;
+  }
+    .ant-btn{
+      margin-bottom: 16px;
+      margin-right: 20px;
+      font-size: 14px;
+    }
+    >input{
+      width: 160px;
+      text-align: left;
+      margin-right: 20px;
+    }
+    .rt{
+      float: right;
+      .export{
+          position:relative;
+          background: rgb(247,247,247);
+          padding-right: 40px;
+          .xia{
+            border: 10px solid transparent;
+            border-top-color: #b0aeae;
+            position: absolute;
+            top: 11px;
+            right: 14px;
+          }
+       
+      }
+      div{
+        position: absolute;
+        z-index: 1000;
+        top: 138px;
+        border-radius: 5px;
+        width: 120px;
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+        background: white;
+        p{
+          border-bottom: 1px solid #ccc;
+          height: 40px;
+          text-align: center;
+          line-height: 40px;
+        }
+         }
+    }
+  }
+  .ant-alert{
+    margin-bottom: 16px;
+  }
+  .delete{
+    color: #EB6CA4; 
+  }
+}
+.add-dept-modal1{
+  .chat,.mdt{
+    border: 1px solid #ccc;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    .left{
+      flex: 1;
+    text-align: center;
+    }
+    .right{
+      border-left: 1px solid #ccc;
+      .item{
+        padding: 10px 10px;
+        border-bottom: 1px solid#ccc;
+        .ant-select-selection {
+          border:none;
+          background:#efefef !important;
+
+        }
+        .ant-checkbox {
+          white-space: nowrap;
+          cursor: pointer;
+          outline: none;
+          display: inline-block;
+          line-height: 1;
+          padding-bottom: 3px;
+          position: relative;
+          vertical-align: text-bottom;
+      }
+        input{
+          background: #efefef;
+           border: none;
+          margin-left:10px;
+        }
+      }
+    }
+  }
+}
+.files-modal{
+  padding: 8px 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mt10{
+  margin-top: 10px;
+}

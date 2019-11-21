@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+@import "../../resources/styles/mixins";
+.ant-table-pagination.ant-pagination {
+  padding-top: 30px;
+}
+.ant-input-number {
+  border:none !important;
+}
+.page-dept{
+  width: 100%;
+  padding: 25px 32px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  .query-box{
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E8E8E8;
+    .ant-btn{
+      margin-bottom: 16px;
+      margin-right: 20px;
+      font-size: 14px;
+    }
+    >input{
+      width: 160px;
+      margin-right: 20px;
+    }
+    .rt{
+      float: right;
+    }
+  }
+  .ant-alert{
+    margin-bottom: 16px;
+  }
+  .delete{
+    color: #EB6CA4;
+  } 
+}
+.add-dept-modal{
+  padding: 10px;
+  >div{
+    display: flex;
+    margin-bottom: 25px;
+    >p{
+      width: 125px !important;
+      text-align: right;
+      line-height: 32px;
+      font-size: 14px;
+      color: #595959;
+      span{
+        color: red;
+        margin-right: 10px;
+      }
+    }
+    >div{
+      flex: 1;
+      input{
+        width: 100%  !important;
+        border:1px solid #ccc;
+      }
+      textarea{
+        height: 80px;
+      }
+    }
+    .shop{
+      width: 68%;
+      span{  
+          display: inline;
+          text-align: center;
+      }
+      p{
+          margin-bottom: 0;
+      }
+     }
+  }
+}
+.files-modal{
+  padding: 8px 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

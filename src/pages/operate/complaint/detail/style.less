@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@import "../../../../resources/styles/mixins";
+
+.p-opt-cpt-dtl{
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #fff;
+  .m-info{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom:1px solid #E8E8E8;
+    .info-hd {
+      font-size:16px;
+      color: #333;
+      font-weight: bold;
+    }
+    .info-bd{
+      display: flex;
+      margin-top: 15px;
+    }
+    .item{
+      flex: 0 0 33.333%;
+      display: flex;
+      font-size:14px;
+    }
+    .item-key{
+      color: #333;
+      min-width: 5em;
+    }
+    .item-value{
+      flex: 1;
+      color: #666;
+      word-break: break-all;
+      white-space: pre-wrap;
+      padding-right: 10px;
+    }
+  }
+  .m-msg{
+    .msg-hd{
+      font-size:16px;
+      color: #333;
+      font-weight: bold;
+    }
+    .msg-bd{
+      margin-top: 20px;
+    }
+    .bd-txt{
+     font-size: 14px;
+      color: #333;
+      word-break: break-all;
+      white-space: pre-wrap;
+    }
+    .bd-extra{
+      margin-top: 20px;
+      img{
+        max-width: 100px;
+        margin-right: 25px;
+      }
+    }
+  }
+}

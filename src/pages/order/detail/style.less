@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@import "../../../resources/styles/mixins";
+
+.page-order-det{
+  width: 100%;
+  padding: 25px 32px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  >div{
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    .title{
+      font-size:16px;
+      margin-bottom: 16px
+    }
+    >div{
+      display: flex;
+      align-items: center;
+      // justify-content: space-between;
+      flex-wrap: wrap;
+      .Ratelikep{
+        position: relative;
+        top: -5px;
+        
+        ul{
+          position: relative;
+          top:-2px
+        }
+        
+      }
+      p{
+        width: 33.33%;
+        margin-bottom: 15px;
+        span{color: rgba(0,0,0,0.65);}
+        &.all-line{width: 100%;}
+        .drtextBox{
+          
+        }
+      }
+    }
+  }
+}
