@@ -1,4 +1,4 @@
-重庆医科大学附属儿童医院互联网医院管理后台，基于[react](https://github.com/reactjs)，[react-router@2.x](https://github.com/ReactTraining/react-router/tree/v2.8.1)，[dva](https://github.com/dvajs), [ant-design-mobile](https://mobile.ant.design/docs/react/introduce-cn)。
+cqyikedaxuefushuertongyiyuanguanlihoutai,基于[react](https://github.com/reactjs)，[react-router@2.x](https://github.com/ReactTraining/react-router/tree/v2.8.1)，[dva](https://github.com/dvajs), [ant-design-mobile](https://mobile.ant.design/docs/react/introduce-cn)。
 
 ---
 
